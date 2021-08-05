@@ -15,12 +15,12 @@ IGNORED_TRACKER_URLS = {'** [DHT] **', '** [PeX] **', '** [LSD] **'}
 )
 @click.option(
     "--qb-username", envvar="QB_USERNAME",
-    required=True,
+    required=False,
     help="qBittorrent username"
 )
 @click.option(
     "--qb-password", envvar="QB_PASSWORD",
-    required=True,
+    required=False,
     help="qBittorrent password"
 )
 @click.option(
@@ -42,7 +42,7 @@ def cli(ctx, qb_host, qb_username, qb_password, qb_tag, debug):
         "qb_host": qb_host,
         "qb_username": qb_username,
         "qb_password": qb_password,
-		"qb_tag": qb_tag,
+	"qb_tag": qb_tag,
         "debug": debug
     }
 
