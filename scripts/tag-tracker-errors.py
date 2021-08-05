@@ -42,7 +42,7 @@ def cli(ctx, qb_host, qb_username, qb_password, qb_tag, debug):
         "qb_host": qb_host,
         "qb_username": qb_username,
         "qb_password": qb_password,
-	"qb_tag": qb_tag,
+        "qb_tag": qb_tag,
         "debug": debug
     }
 
