@@ -1,2 +1,2 @@
 click==8.0.3
-qbittorrent-api==2021.12.25
+qbittorrent-api==2021.12.26
