@@ -1,2 +1,2 @@
-click==8.0.3
+click==8.0.4
 qbittorrent-api==2022.2.28
