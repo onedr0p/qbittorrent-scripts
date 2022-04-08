@@ -4,7 +4,7 @@ import typer
 from loguru import logger
 from qbittorrentapi import Client
 
-from commands import errors
+from commands import tracker_errors
 
 
 @dataclass
@@ -13,7 +13,7 @@ class Common:
     log_level: str
 
 app = typer.Typer()
-app.add_typer(errors.app, name="errors")
+app.add_typer(tracker_errors.app, name="tracker-errors")
 
 @app.callback()
 def common(ctx: typer.Context,
