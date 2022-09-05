@@ -1,4 +1,4 @@
 loguru==0.5.3
 typer==0.4.0
-click==8.0.4
-qbittorrent-api==2022.8.37
+click==8.1.3
+qbittorrent-api==2022.8.38
