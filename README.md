@@ -1,5 +1,7 @@
 # qBittorrent Scripts
 
+This has been archived in favor of https://github.com/buroa/qbittools
+
 Collection of Python scripts to be used with qBittorrent.
 
 ## Scripts
